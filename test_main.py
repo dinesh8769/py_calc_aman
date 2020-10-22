@@ -9,7 +9,9 @@ class test_main(unittest.TestCase):
    def testAdd2(self):
       self.assertEqual(main.Add(10,30),40)  
    def testAdd2(self):
-      self.assertEqual(main.Add(10,300),310)     
+      self.assertEqual(main.Add(10,300),310) 
+   def testAdd3(self):
+      self.assertEqual(main.Add(100,300),400)    
    def testSub1(self):
       self.assertEqual(main.Subtract(10,5),5)
    def testSub2(self):
