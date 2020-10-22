@@ -4,6 +4,8 @@ def Subtract(a,b):
     return a-b 
 def Multiplication(a,b):
     return a*b 
+def Division(a,b):
+    return a/b 
 def PrintTest():
     return "Hello"
 
